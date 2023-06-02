@@ -244,6 +244,9 @@ void assert_failed(uint8_t *file, uint32_t line)
  
  ![exp_7](https://github.com/vidhyadharan-03/EXPERIMENT--07-SQUARE-WAVE-GENERATION-AT-THE-OUTPUT-PIN-USING-TIMER/assets/114286357/c9618bc0-9560-41ea-bc17-b0a296cbbea9)
 
+500:
+![500](https://github.com/vidhyadharan-03/EXPERIMENT--07-SQUARE-WAVE-GENERATION-AT-THE-OUTPUT-PIN-USING-TIMER/assets/114286357/0f38ccd7-ccfc-4c31-a84c-f24b003d25af)
+
 700:
 
 ![700](https://github.com/vidhyadharan-03/EXPERIMENT--07-SQUARE-WAVE-GENERATION-AT-THE-OUTPUT-PIN-USING-TIMER/assets/114286357/e01edadb-4679-4dcc-bb26-f4c1f7038c1c)
