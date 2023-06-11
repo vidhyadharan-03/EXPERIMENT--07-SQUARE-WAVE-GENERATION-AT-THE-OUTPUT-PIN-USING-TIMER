@@ -48,16 +48,26 @@ In normal settings, assuming you’re using the timer module in PWM mode and gen
 Step1: Open CubeMX & Create New Project
 
 Step2: Choose The Target MCU & Double-Click Its Name select the target to be programmed  as shown below and click on next 
+![2](https://github.com/vidhyadharan-03/EXPERIMENT--07-SQUARE-WAVE-GENERATION-AT-THE-OUTPUT-PIN-USING-TIMER/assets/114286357/f077ec65-403f-4efc-b92d-44010cab97e6)
+
+![3](https://github.com/vidhyadharan-03/EXPERIMENT--07-SQUARE-WAVE-GENERATION-AT-THE-OUTPUT-PIN-USING-TIMER/assets/114286357/a47ecdae-c8c9-4613-904b-0764d2259339)
+
+![4](https://github.com/vidhyadharan-03/EXPERIMENT--07-SQUARE-WAVE-GENERATION-AT-THE-OUTPUT-PIN-USING-TIMER/assets/114286357/f97eabaf-f691-4872-9007-e476fb0f54f6)
 
 Step3: Configure Timer2 Peripheral To Operate In PWM Mode With CH1 Output
 
-Step4: Set The RCC External Clock Source
 
+![5](https://github.com/vidhyadharan-03/EXPERIMENT--07-SQUARE-WAVE-GENERATION-AT-THE-OUTPUT-PIN-USING-TIMER/assets/114286357/7d015938-2e01-4ed0-b342-dfa34974e98b)
+
+
+Step4: Set The RCC External Clock Source
+![6](https://github.com/vidhyadharan-03/EXPERIMENT--07-SQUARE-WAVE-GENERATION-AT-THE-OUTPUT-PIN-USING-TIMER/assets/114286357/35180a83-f8eb-4ac8-8d9a-0971efa08070)
 STM32 RCC External Clock Selection CubeMX
 
 Step5: Go To The Clock Configuration
 
 Step6: Set The System Clock To Be 72MHz
+![7](https://github.com/vidhyadharan-03/EXPERIMENT--07-SQUARE-WAVE-GENERATION-AT-THE-OUTPUT-PIN-USING-TIMER/assets/114286357/ac15ad05-31f7-4e22-aa60-539bf55f2c17)
 
 Step7: Name & Generate The Project Initialization Code For CubeIDE or The IDE You’re Using
 
@@ -66,10 +76,12 @@ We are now at the last part of step by step guide on how to simulate STM32 proje
 
 Step9. Create a new Proteus project and place STM32F40xx i.e. the same MCU for which the project was created in STM32Cube IDE. 
 14. After creation of the circuit as per requirement as shown below 
+![8](https://github.com/vidhyadharan-03/EXPERIMENT--07-SQUARE-WAVE-GENERATION-AT-THE-OUTPUT-PIN-USING-TIMER/assets/114286357/5f08969a-5cc2-4138-a6de-bc2cbeffb4e2)
 
 Step10. Double click on the the MCU part to open settings. Next to the Program File option, give full path to the Hex file generated using STM32Cube IDE. Then set the external crystal frequency to 8M (i.e. 8 MHz). Click OK to save the changes.
  
 Step14. click on debug and simulate using simulation as shown below 
+![9](https://github.com/vidhyadharan-03/EXPERIMENT--07-SQUARE-WAVE-GENERATION-AT-THE-OUTPUT-PIN-USING-TIMER/assets/114286357/94783129-4ef6-43aa-8c66-805f54278813)
 
 ## STM 32 CUBE PROGRAM :
 ```
